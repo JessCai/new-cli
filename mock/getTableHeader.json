@@ -1,0 +1,28 @@
+[ {
+  "prop": "test",
+  "label": "-",
+  "align": "center",
+  "type": "selection"
+}, {
+  "prop": "test1",
+  "label": "-",
+  "align": "center",
+  "type": "index"
+},
+  {
+    "prop": "time",
+    "label": "时间1",
+    "align": "center"
+  },
+  {
+    "prop": "application",
+    "label": "应用1"
+  },
+  {
+    "prop": "serveResponseTime",
+    "label": "服务器响应时间1",
+    "align": "center",
+    "url":"tableContent",
+    "jumpPayload": "time&application"
+  }
+]

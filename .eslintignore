@@ -1,0 +1,11 @@
+vue.config.js
+mddir.js
+dist/*
+tests/*
+mock/*
+output.js
+babel.config.js
+public/jsdoc/*
+docs/*
+webpack.prod.config.js
+public/*
