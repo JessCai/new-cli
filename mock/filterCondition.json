@@ -1,56 +1,58 @@
-[{
-  "type": "select",
-  "label": "市级",
-  "key": "city",
-  "columnId":1,
-  "parentColumnId":null,
-  "options": [{
-		"label": "肇庆",
-		"value": 8441200
-	}, {
-		"label": "湛江",
-		"value": 8440800
-	}, {
-		"label": "中山",
-		"value": 8442000
-	}, {
-		"label": "河源",
-		"value": 8441600
-	}, {
-		"label": "清远",
-		"value": 8441800
-	}, {
-		"label": "云浮",
-		"value": 8445300
-	}, {
-		"label": "潮州",
-		"value": 8445100
-	}, {
-		"label": "东莞",
-		"value": 8441900
-	}, {
-		"label": "揭阳",
-		"value": 8445200
-	}]
-},
 {
-  "type": "select",
-  "label": "县级",
-  "key": "region",
-  "columnId":2,
-  "parentColumnId":1,
-  "options": [{
-		"label": "连江",
-		"value": 84412
-	}, {
-		"label": "闽侯",
-		"value": 84408
-	}]
-}, {
-  "type": "select",
-  "label": "指标",
-  "key": "kpiCode",
-  "options":[
+  "childSel": "/report/childSelOption",
+  "condition": [{
+    "type": "select",
+    "label": "市级",
+    "key": "city",
+    "columnId": 1,
+    "parentColumnId": null,
+    "options": [{
+      "label": "肇庆",
+      "value": 8441200
+    }, {
+      "label": "湛江",
+      "value": 8440800
+    }, {
+      "label": "中山",
+      "value": 8442000
+    }, {
+      "label": "河源",
+      "value": 8441600
+    }, {
+      "label": "清远",
+      "value": 8441800
+    }, {
+      "label": "云浮",
+      "value": 8445300
+    }, {
+      "label": "潮州",
+      "value": 8445100
+    }, {
+      "label": "东莞",
+      "value": 8441900
+    }, {
+      "label": "揭阳",
+      "value": 8445200
+    }]
+  },
+  {
+    "type": "select",
+    "label": "县级",
+    "key": "region",
+    "columnId": 2,
+    "parentColumnId": 1,
+    "options": [{
+      "label": "连江",
+      "value": 84412
+    }, {
+      "label": "闽侯",
+      "value": 84408
+    }]
+  }, {
+    "type": "select",
+    "label": "指标",
+    "key": "kpiCode",
+    "options": [
     {
       "value": 499991001,
       "label": "流量包线上订购成功率"
@@ -111,18 +113,18 @@
     }, {
       "value": 499991018,
       "label": "10000号4-5星用户人工接通率"
-    }
-  ]
-}, {
-  "type": "date",
-  "label": "日期",
-  "key": "date"
-}, {
-  "type": "input",
-  "label": "关键字",
-  "key": "keyWord"
-}, {
-  "type": "input",
-  "label": "号码",
-  "key": "number"
-}]
+    }]
+  }, {
+    "type": "date",
+    "label": "日期",
+    "key": "date"
+  }, {
+    "type": "input",
+    "label": "关键字",
+    "key": "keyWord"
+  }, {
+    "type": "input",
+    "label": "号码",
+    "key": "number"
+  }]
+}

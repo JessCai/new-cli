@@ -23,6 +23,7 @@ module.exports = {
       "Vue":true,
       "$attrs":true, //for vue
       "gloabl":true,// for nodejs
+      "THREE":true
   },
   extends: ['plugin:vue/essential', 'airbnb-base', ],
   // required to lint *.vue files
@@ -39,7 +40,7 @@ module.exports = {
            "map": [
              ["@", "./src"]
            ],
-           "extensions": [".js", ".jsx", ".json"]
+           "extensions": [".js", ".jsx", ".json",".vue"]
         }
       }
   },

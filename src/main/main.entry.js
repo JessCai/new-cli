@@ -1,5 +1,6 @@
 /* eslint-disable global-require */
 import Vue from 'vue';
+import * as THREE from 'three';
 import Element from 'element-ui';
 import moment from 'moment';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -7,6 +8,7 @@ import ECharts from 'vue-echarts';
 import _ from 'lodash';
 import App from './App';
 import router from './router';
+
 // import store from '../../store/index';
 
 
@@ -26,10 +28,10 @@ function regWindowObject(map) {
 
 regWindowObject({
   _,
-  moment
+  moment,
+  THREE
 });
 Vue.component('chart', ECharts);
-console.log(router);
 new Vue({
   router,
   // store,
